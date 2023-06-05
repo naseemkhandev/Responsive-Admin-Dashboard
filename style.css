@@ -27,7 +27,7 @@
   background-color: var(--main-color);
   z-index: 100;
   overflow: hidden;
-  transition: all .5s;
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .logo{
@@ -68,7 +68,7 @@
 
 .main-content{
   margin-left: 270px;
-  transition: all .5s;
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .flex{
